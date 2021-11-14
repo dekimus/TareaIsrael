@@ -3,7 +3,7 @@ package ed2;
 //Israel Pérez---------------<<<<<<<<<<<
 public class ED2 {
 
-    public static String veredicto(String modulos, String horas){
+    private static String veredicto(String modulos, String horas){
         if(Integer.parseInt(modulos) > Integer.parseInt(horas)) 
             return "Poco tiempo de estudio. Debes dedicar más tiempo";
         else if (modulos.equals(horas))
