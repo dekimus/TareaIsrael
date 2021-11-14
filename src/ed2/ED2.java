@@ -1,6 +1,6 @@
 
 package ed2;
-
+//Israel Pérez---------------<<<<<<<<<<<
 public class ED2 {
 
     public static String veredicto(String modulos, String horas){
